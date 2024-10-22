@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 1px solid #eee;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav .menu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+nav .icons img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.product-section {
+  display: flex;
+  gap: 50px;
+}
+
+.product-images {
+  flex: 1;
+}
+
+.product-images .main-image {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.thumbnails img {
+  width: 60px;
+  cursor: pointer;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info h2 {
+  color: #777;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.product-info h1 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.product-info p {
+  color: #777;
+  margin: 20px 0;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.pricing .price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.pricing .discount {
+  background-color: #0c0b0a;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.pricing .old-price {
+  color: #777;
+  text-decoration: line-through;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.quantity-control button {
+  background-color: #eee;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.quantity-control input {
+  width: 40px;
+  text-align: center;
+  border: none;
+  background-color: #f9f9f9;
+}
+
+#add-to-cart {
+  display: flex;
+  align-items: center;
+  background-color: #ff7d1a;
+  color: rgb(15, 13, 13);
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+#add-to-cart img {
+  background-color: #ff7d1a;
+  color: rgb(15, 13, 13);
+  width: 20px;  /* Adjust size */
+  margin-right: 10px; /* Space between the icon and text */
+}
